@@ -1,0 +1,212 @@
+/*
+Theme Name: musician
+Author: Vegibit
+Author URI: https://vegibit.com
+Version: 1.0
+ */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #545454;
+}
+
+.site-header {
+  border-bottom: 3px solid #ecf0f1;
+}
+
+.site-footer {
+  border-top: 3px solid #ecf0f1;
+}
+
+.logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #2a2a2a;
+  border-bottom: 5px solid white;
+}
+
+.nav-header {
+  background: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 5px solid white;
+  border-bottom: 3px solid white;
+}
+
+.nav-header-menu {
+  color: white;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.top-header {
+  background: black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.top-header-menu {
+  color: white;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.search-btn {
+  color: white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+#user_account_button {
+  color: white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.artist-avtar {
+  width: 98%;
+  object-fit: cover;
+}
+
+.contact-avatar {
+  width: 98%;
+  height: 125%;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
+.artist {
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 6px;
+  background: white;
+}
+
+.artist-list {
+  /* background: #2a2a2a; */
+  margin-left: 0px;
+  margin-right: -6px;
+  padding-bottom: 70px;
+}
+
+.genre {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  color: white;
+  opacity: 0.5;
+  border-bottom-right-radius: 15px;
+}
+
+.artist-short-info {
+  position: absolute;
+  bottom: 6px;
+  left: 0px;
+  width: 98%;
+  padding: 5px;
+  background: black;
+  opacity: 0.8;
+}
+
+.modal-content {
+  background: black;
+  color: white;
+  border: 5px solid white;
+}
+
+p {
+  text-align: justify;
+}
+
+.modal-content .modal-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: white;
+}
+
+.hiring-instruction-link {
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* span.hiring-instruction-link:hover {
+  color: blue;
+} */
+
+.form-save-btn {
+  float: right;
+  letter-spacing: 1px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+#dropdownSearch.dropdown-toggle::after {
+  content: none;
+}
+
+#search_select {
+  background-color: transparent;
+  color: white;
+}
+
+#search_select option {
+  background-color: transparent !important;
+  border: 1px solid #e4e4e4;
+  color: black;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#search_input {
+  background: transparent;
+  color: white;
+}
+
+.circle-btn {
+  border-radius: 50%;
+  padding: 0px 1px 2px 2px;
+  height: 25px;
+  width: 25px;
+}
+
+.performance-table {
+  --bs-table-bg: black;
+  --bs-table-striped-bg: #2c3034;
+  --bs-table-striped-color: #fff;
+  --bs-table-active-bg: #373b3e;
+  --bs-table-active-color: #fff;
+  --bs-table-hover-bg: #323539;
+  --bs-table-hover-color: #fff;
+  color: #fff;
+  border-color: #373b3e;
+}
